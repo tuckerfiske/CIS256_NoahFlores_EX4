@@ -12,7 +12,7 @@ def guess_the_word():
     print(f"The word has {len(word)} letters.")
 
     hidden_word = ["_"] * len(word)
-
+    # This loop runs the main part of the game:
     while attempts > 0 and "_" in hidden_word:
         print("\nWord:", " ".join(hidden_word))
         print(f"Attempts left: {attempts}")
