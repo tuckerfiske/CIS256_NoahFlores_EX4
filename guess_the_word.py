@@ -1,5 +1,7 @@
 import random
 
+# Small cleanup and readability improvements
+
 def guess_the_word():
     words = ["python", "github", "college", "programming", "computer"]
     word = random.choice(words)
